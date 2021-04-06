@@ -1,0 +1,28 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "initiative-progress-submission-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/initiativeProgressSubmission/InitiativeProgressSubmissionWebPart.js",
+          "manifest": "./src/webparts/initiativeProgressSubmission/InitiativeProgressSubmissionWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "jquery": {
+      "path": "node_modules/jquery/dist/jquery.min.js",
+      "globalName": "jQuery"
+    },
+    "bootstrap": {
+     "path": "node_modules/bootstrap/dist/js/bootstrap.min.js",
+     "globalName": "jQuery"
+   }
+  },
+  "localizedResources": {
+    "InitiativeProgressSubmissionWebPartStrings": "lib/webparts/initiativeProgressSubmission/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}

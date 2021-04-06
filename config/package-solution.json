@@ -1,0 +1,22 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "initiative-client-side-solution",
+    "id": "7ee9a746-9b03-4360-b396-cebde3bb82ab",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "Sticsoft",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": ""
+      }
+  },
+  "paths": {
+    "zippedPackage": "solution/Novartis.NBS.ECM.StrategicInitiativeProgressSubmission.sppkg"
+  }
+  
+}

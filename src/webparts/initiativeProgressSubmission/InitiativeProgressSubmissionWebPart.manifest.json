@@ -1,0 +1,28 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "31100700-b7ac-4385-b296-c4886404183c",
+  "alias": "InitiativeProgressSubmissionWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportsFullBleed": true,
+  "supportedHosts": ["SharePointWebPart","TeamsTab"],
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Other" },
+    "title": { "default": "NBS Progress Submission" },
+    "description": { "default": "initiative-progress-submission description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "NBS Progress Submission Desc",
+      "apiUrl":"https://sticsoftio.sharepoint.com/sites/poc",
+      "submissionListName":"Initiative%20Progress%20Submission",
+      "type":"0",
+      "countryList":"Initiatives",
+      "ngscList":"Programs",
+      "needPDF":"0",
+      "packageName":"Strategic"
+    }
+  }]
+}
